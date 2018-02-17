@@ -1,0 +1,230 @@
+*{
+	font-family:'Open Sans', sans-serif; 
+}
+body{
+	padding-top:50px;
+	
+}
+
+/*------------------------------------- header--------------------------------------- */
+	.navbar-default{
+		background-color:#F4DC75;
+		color:white;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-family                 :'Oswald', sans-serif;
+		font-size					:18px;
+		color                       :white;
+		
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+		color                       :white;
+		background-color            :#A9C789;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		color                       :#F4DC75;
+		background-color            :#A9C789;
+		font-size:20px;
+	}
+	.navbar-right{
+		margin:-39px 12px;
+	}
+/*------------------------------------- main--------------------------------------- */
+	.card{
+		min-height: 319px;
+		margin:-3% 0%;
+		background-color: #EEEEEE;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+	}
+	.card2{
+		height: 446px;
+		background-color: #EEEEEE;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+	}
+	main{
+		margin:2% auto;
+	}
+	.equipo{
+		margin:2% auto;
+	}
+	.somos h1{
+		margin-top:1%;
+		font-family: 'Oswald', sans-serif;
+		font-size: 4.5em;
+		color: #DCA3B4;
+	}
+	.text_somos p{
+		margin-top: 10%;
+		font-size: 1.1em;
+	}
+	
+	/*Laptop*/ @media (min-width: 769px ) and (max-width: 1024px){
+		.card2{
+			height:364px;
+		}
+		.somos h1{
+			margin-top: 3%;
+			font-size: 3em;
+		}
+		.text_somos p{
+			margin-top:5%;
+			font-size:0.9em;
+		}		
+	}
+	/*Tablet*/ @media (min-width: 426px ) and (max-width: 768px){
+		.card2{
+			height:685px;
+		}
+		.somos h1{
+			margin-top: -6%;
+			font-size: 4em;
+		}
+		.text_somos p{
+			margin-top:-1%;
+			font-size:0.9em;
+		}
+		.card{
+			min-height:auto;
+		}
+		.btn-default{
+			margin: 5% auto;
+		}	
+	}
+	/*mobile L*/ @media (min-width: 321px ) and (max-width: 425px){
+		.equipo{
+			margin: 4% auto;
+		}		
+		.card2{
+			height:557px;
+		}
+		.somos h1{
+			margin-top: -6%;
+			font-size: 4em;
+		}
+		.text_somos p{
+			margin-top:-5%;
+			font-size:0.9em;
+		}
+		.card{
+			min-height:auto;
+		}
+		.btn-default{
+			margin: 3% auto;
+		}	
+	}
+	/*mobile S*/ @media only screen and (max-width: 320px){
+		.equipo{
+			margin: 4% auto;
+		}		
+		.card2{
+			height:582px;
+		}
+		.somos h1{
+			margin-top: -6%;
+			font-size: 4em;
+		}
+		.text_somos p{
+			margin-top:-5%;
+			padding:0px 13px;
+			font-size:0.9em;
+		}
+		.card{
+			min-height:auto;
+		}
+		.btn-default{
+			margin: -3% auto;
+		}	
+	}
+
+	
+	section h1{
+		padding-top:5%;
+		font-family: 'Oswald', sans-serif;
+		font-size: 2em;
+		color: #DCA3B4;
+	}
+	.text-center p{		
+		padding:0px 30px;
+		font-size:1em;
+	}
+	.enfatizar{
+		font-weight:bold;
+		font-size:1.2em;
+		color:#DCA3B4;
+	}
+	.enfatizar_lis{
+		list-style-type:none;
+		font-weight:bold;
+		font-size:1.2em;
+		color:#DCA3B4; 
+	}
+	strong{
+		font-weight: bold;
+		font-size: 1.2em;
+		color: #DCA3B4;
+	}
+	.btn-default{
+		margin-bottom: 3%;
+		background-color  			:#DCA3B4;
+		font-family       			:'Oswald', sans-serif;
+		font-size         			:18px;
+		color             			:white;
+	}
+	.btn-default:hover, .btn-default:focus,.btn-default:active,.btn-default:active:focus,.btn-default:active:hover {
+		color			 			:white;
+		background-color 			:#d591a5;
+	}
+/*------------------------------------- footer--------------------------------------- */
+
+	/* bar_footer */
+	.bar_footer{
+		background-color			:#A9C789;
+	}			
+	/* menu_footer */
+	.menu_footer{
+		margin: 2% 0; 
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1em;
+		list-style-type: none;
+	}				
+	.menu_footer a{			
+		text-decoration	:none;
+		color:white;
+	}
+	.menu_footer a:hover, .menu_footer a:focus {
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}
+	
+	/* datos */				
+	.datos address{	
+		margin-top:5%;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:0.8em;
+		line-height    				:1.5;
+		color          				:white;
+	}				
+	.datos a{				
+		margin-bottom  				:1% auto;
+		color          				:white;		
+	}
+	.datos a:hover, .datos a:hover{
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}	
+	.material-icons.md-18{
+		font-size:14px;
+	}
+	/* redes */				
+	.redes p{		
+		margin-top:5%;
+		text-align     				:center;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1.2em;
+		color          				:white;		
+	}				
+	.youtube, .facebook{
+		display      			  	:inline;
+	}
+	
+	

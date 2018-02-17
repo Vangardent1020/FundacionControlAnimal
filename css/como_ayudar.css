@@ -1,0 +1,198 @@
+body{
+	padding-top:50px;
+}
+
+/*------------------------------------- header--------------------------------------- */
+	.navbar-default{
+		background-color			:#F4DC75;
+		color           			:white;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-family                 :'Oswald', sans-serif;
+		font-size					:18px;
+		color                       :white;
+		
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+		color                       :white;
+		background-color            :#A9C789;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		color                       :#F4DC75;
+		background-color            :#A9C789;
+		font-size                   :20px;
+	}
+	.navbar-right{
+		margin:-39px 12px;
+	}
+	
+/*------------------------------------- main-------------------------------------- */
+
+	main{
+		margin						:2% auto;
+	}
+	#contribucion .demo-card-wide.mdl-card{
+		margin-top:3%;
+		width: auto;
+		height: 295px;
+		background-color: #EEEEEE;
+	}
+	#formulario .demo-card-wide.mdl-card{
+		margin: 3% auto;
+		width:auto;
+		background-color:#DCA3B4;
+	}
+	section h1{
+		font-family					:'Oswald', sans-serif;
+		font-size  					:2.3em;
+		color      					:#DCA3B4;
+	}
+	section p{
+		font-family: 'Open Sans', sans-serif; 
+		padding: 0px 15px;
+		font-size:0.9em;
+	}
+	.form-group{
+		margin:35px auto;
+	}
+	.btn-default{
+		background-color  			: #F4DC75;
+		font-family       			: 'Oswald', sans-serif;
+		font-size         			: 1em;
+		color             			: white;
+	}
+	.btn-default:hover, .btn-default:focus,.btn-default:active,.btn-default:active:focus,.btn-default:active:hover {
+		color			 			:white;
+		background-color 			:#f0d045;
+	}
+	.form_1{
+		margin:6%;
+	}
+	.form_1 label{
+		font-family:'Oswald', sans-serif;
+		font-weight:200;
+		font-size:1.1em;
+		color:white;	
+	}
+	.form_2{
+		margin:6%;
+	}
+	#question{
+		height:80px;
+		max-height:80px;
+	}
+/* modal_formulario */
+	.modal-title{
+		font-family:'Oswald', sans-serif;
+		font-size:3em;
+		color:#DCA3B4;
+	}
+	.modal-body label{
+		font-family:'Oswald', sans-serif;
+		font-size:1.5em;
+		color:#DCA3B4;
+	}
+	.subtitle{
+		font-family:'Oswald', sans-serif;
+		font-size:2em;
+		color:#DCA3B4;
+	}
+	.thanks p{
+		font-family:'Open Sans', sans-serif; 
+		font-size:1.1em;
+	}
+	#cant{
+		display: flex;
+	}
+/*media queries*/
+/*Laptop*/ @media (min-width: 769px ) and (max-width: 1024px){
+	section p{
+		font-size:0.7em;
+	}
+	
+}
+/*Tablet*/ @media (min-width: 426px ) and (max-width: 768px){
+	#contribucion .demo-card-wide.mdl-card{
+		height: 285px;
+
+	}
+	section p{
+		font-size:0.8em;
+	}
+	.form-group{
+		margin:10px auto;
+	}
+}
+/*mobile L*/ @media (min-width: 376px ) and (max-width: 425px){
+	#contribucion .demo-card-wide.mdl-card{
+		height: auto;
+	}
+}
+/*mobile M*/ @media (min-width: 321px ) and (max-width: 375px){
+	#contribucion .demo-card-wide.mdl-card{
+		height: auto;
+	}
+}
+/*mobile S*/ @media only screen and (max-width: 320px){
+	#contribucion .demo-card-wide.mdl-card{
+		height: auto;
+	}
+	section p{
+		font-size:0.77em;
+	}
+}
+	
+/*------------------------------------- footer--------------------------------------- */
+
+	/* bar_footer */
+	.bar_footer{
+		background-color			:#A9C789;
+	}			
+	/* menu_footer */
+	.menu_footer{
+		margin: 2% 0; 
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1em;
+		list-style-type: none;
+	}				
+	.menu_footer a{			
+		text-decoration	:none;
+		color:white;
+	}
+	.menu_footer a:hover, .menu_footer a:focus {
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}
+	
+	/* datos */				
+	.datos address{	
+		margin-top:5%;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:0.8em;
+		line-height    				:1.5;
+		color          				:white;
+	}				
+	.datos a{				
+		margin-bottom  				:1% auto;
+		color          				:white;		
+	}
+	.datos a:hover, .datos a:hover{
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}	
+	.material-icons.md-18{
+		font-size:14px;
+	}
+	/* redes */				
+	.redes p{		
+		margin-top:5%;
+		text-align     				:center;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1.2em;
+		color          				:white;		
+	}				
+	.youtube, .facebook{
+		display      			  	:inline;
+	}
+	
+	

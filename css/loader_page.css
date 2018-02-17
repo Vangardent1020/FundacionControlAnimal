@@ -1,0 +1,52 @@
+#loadpage{
+	display: block;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	background-color:#F4DC75;
+}
+#loader{
+	text-align: center;
+    line-height: 75;	
+}
+/*media query*/
+
+/*Desktop*/@media (min-width: 1025px ) and (max-width: 1440px){
+	#loader{
+	text-align: center;
+    line-height: 65;	
+	}
+}
+/*Laptop*/ @media (min-width: 769px ) and (max-width: 1024px){
+	#loader{
+	text-align: center;
+    line-height: 50;	
+	}
+}
+/*Tablet*/ @media (min-width: 426px ) and (max-width: 768px){
+	#loader{
+	text-align: center;
+    line-height: 45;	
+	}
+}
+/*mobile L*/ @media (min-width: 376px ) and (max-width: 425px){
+	#loader{
+	text-align: center;
+    line-height: 45;	
+	}
+}
+/*mobile M*/ @media (min-width: 321px ) and (max-width: 375px){
+	#loader{
+	text-align: center;
+    line-height: 45;	
+	}
+}
+/*mobile S*/ @media only screen and (max-width: 320px){
+	#loader{
+	text-align: center;
+    line-height: 45;
+	}
+}

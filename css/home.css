@@ -1,0 +1,242 @@
+ *{
+	font-family                     :'Open Sans', sans-serif; 
+}
+
+/*------------------------------------- header-menu--------------------------------------- */
+	.img_header{
+		background-color:#F4DC75;		
+	}
+	.navbar-default{
+		background-color:#A9C789;
+		color:white;
+		border:none;
+	}
+	.navbar{
+		border:none;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-family                 :'Oswald', sans-serif;
+		font-size					:1.2em;
+		color                       :white;		
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+		background-color            :#F4DC75;
+		color                       :#A9C789;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		color                       :#A9C789;
+		background-color            :#F4DC75;
+		font-size:1.3em;
+	}
+	.center_content{
+		display:flex;
+		justify-content:center;
+	}
+	.navbar-right{
+		margin:-39px 12px;
+	}
+
+/*------------------------------------- galery--------------------------------------- */
+
+	.container-carrusel{
+		width: 100%;
+		margin-top: 0%;	
+		margin-bottom: 28px;		
+	}
+	.material-icons.md-48{
+		font-size: 48px;
+		position: relative;
+		top: 50%;
+	}
+	
+	
+/*------------------------------------- cards--------------------------------------- */
+	.card{
+		margin-bottom:-1%;
+		height:259px;
+		background-color:#EEEEEE;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+	}
+	.somos{
+		margin-top: -30px;
+	}
+	.title_card h2 {
+		padding: 3% 2%;		
+		text-align: center;
+		font-family: 'Oswald', sans-serif;		
+	}
+	.somos h2{
+		font-size:4rem;
+		font-weight:bold;
+		color :#DCA3B4;
+	}
+	.somos p{
+		margin: 0% 6%;
+		text-align: center;
+		font-family:'Open Sans', sans-serif;
+		font-size: 1.1rem;
+		color:#424242;		
+	}
+	.dog h2, .cat h2 {
+		font-size:2em;
+		color :#ffffff;
+	}
+	.dog h3, .cat h3 {
+	
+		font-family:'Open Sans', sans-serif;
+		font-size: 6em;
+		font-weight:bold;
+		color :#f8edf0;
+	}
+	.dog, .cat{
+		height:205px;
+	}
+	.dog{
+		background-color:#A9C789;		
+	}
+	.cat{
+		background-color:#DCA3B4;		
+	}
+	.contribution{
+		margin-bottom:4%;
+		height:300px;
+	}
+	.contribution h2{
+		font-size:2.5em;
+		font-weight:bold;
+		color :#DCA3B4;
+	}
+	.contribution p{
+		margin: 0% 3%;
+		text-align: center;
+		font-family:'Open Sans', sans-serif;
+		font-size: 1em;
+		color:#424242;		
+	}
+	.cuenta{
+		margin-top: 4%;
+	}
+	.cuenta h5{
+		margin-top:3%;
+		color:#DCA3B4;
+	}
+	.btn-default{
+		position: relative;
+		margin:5% auto;
+		background-color            :#DCA3B4;
+		font-family                 :'Oswald', sans-serif;
+		font-size                   :18px;
+		color                       :white;
+	}
+	.btn-default:hover, .btn-default:focus,.btn-default:active,.btn-default:active:focus,.btn-default:active:hover {
+		color						:white;
+		background-color            :#d591a5;
+	}
+	
+	@media only screen and (max-width: 767px)
+	{
+		.contribution{
+			height:440px;
+		}	
+		.cuenta h5 {
+			margin-top: 5%;
+		}
+	}
+	
+	.notice{
+		
+		margin:-1% 0% 3%;
+		height: 804px;
+		background-color:#EEEEEE;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+		
+	}
+	.title_notice h2 {
+		margin: 4% 0 2%;
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: #DCA3B4;
+		font-size: 4em;
+	}
+	
+	.multimedia{
+		width:90%;
+		margin:2% auto;
+		
+	}
+	.noticia{
+		text-align:center;
+	}
+	.noticia h3{
+		margin: 6% 0 -3%;
+		font-family: 'Oswald', sans-serif;
+		color: #DCA3B4;
+		font-size: 4em;
+	}
+	.noticia p{
+		margin: 10% 3%;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.1em;
+		color: #424242;	
+	}
+	@media only screen and (max-width: 425px)
+	{
+		.title_notice h2, .notice h3{
+			font-size:2.5em;
+		}
+		.notice {
+		margin: -1% 0% 7%;		
+		}
+	}
+/*------------------------------------- footer--------------------------------------- */
+
+	/* bar_footer */
+	.bar_footer{
+		background-color			:#A9C789;
+	}			
+	/* menu_footer */
+	.menu_footer{
+		margin: 2% 0; 
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1em;
+		list-style-type: none;
+	}				
+	.menu_footer a{			
+		text-decoration	:none;
+		color:white;
+	}
+	.menu_footer a:hover, .menu_footer a:focus {
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}
+	
+	/* datos */				
+	.datos address{	
+		margin-top:5%;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:0.8em;
+		line-height    				:1.5;
+		color          				:white;
+	}				
+	.datos a{				
+		margin-bottom  				:1% auto;
+		color          				:white;		
+	}
+	.datos a:hover, .datos a:hover{
+		text-decoration				:none;
+		color          				:#F4DC75;
+	}	
+	.material-icons.md-18{
+		font-size:14px;
+	}
+	/* redes */				
+	.redes p{		
+		margin-top:5%;
+		text-align     				:center;
+		font-family    				:'Open Sans', sans-serif;
+		font-size      				:1.2em;
+		color          				:white;		
+	}				
+	.youtube, .facebook{
+		display      			  	:inline;
+	}
