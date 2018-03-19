@@ -25,7 +25,7 @@ body{
 	.navbar-right{
 		margin:-39px 12px;
 	}
-	
+
 /*------------------------------------- main-------------------------------------- */
 
 	main{
@@ -48,7 +48,7 @@ body{
 		color      					:#DCA3B4;
 	}
 	section p{
-		font-family: 'Open Sans', sans-serif; 
+		font-family: 'Open Sans', sans-serif;
 		padding: 0px 15px;
 		font-size:0.9em;
 	}
@@ -72,7 +72,7 @@ body{
 		font-family:'Oswald', sans-serif;
 		font-weight:200;
 		font-size:1.1em;
-		color:white;	
+		color:white;
 	}
 	.form_2{
 		margin:6%;
@@ -98,7 +98,7 @@ body{
 		color:#DCA3B4;
 	}
 	.thanks p{
-		font-family:'Open Sans', sans-serif; 
+		font-family:'Open Sans', sans-serif;
 		font-size:1.1em;
 	}
 	#cant{
@@ -109,7 +109,7 @@ body{
 	section p{
 		font-size:0.7em;
 	}
-	
+
 }
 /*Tablet*/ @media (min-width: 426px ) and (max-width: 768px){
 	#contribucion .demo-card-wide.mdl-card{
@@ -141,21 +141,21 @@ body{
 		font-size:0.77em;
 	}
 }
-	
+
 /*------------------------------------- footer--------------------------------------- */
 
 	/* bar_footer */
 	.bar_footer{
 		background-color			:#A9C789;
-	}			
+	}
 	/* menu_footer */
 	.menu_footer{
-		margin: 2% 0; 
+		margin: 2% 0;
 		font-family    				:'Open Sans', sans-serif;
 		font-size      				:1em;
 		list-style-type: none;
-	}				
-	.menu_footer a{			
+	}
+	.menu_footer a{
 		text-decoration	:none;
 		color:white;
 	}
@@ -163,36 +163,34 @@ body{
 		text-decoration				:none;
 		color          				:#F4DC75;
 	}
-	
-	/* datos */				
-	.datos address{	
+
+	/* datos */
+	.datos address{
 		margin-top:5%;
 		font-family    				:'Open Sans', sans-serif;
 		font-size      				:0.8em;
 		line-height    				:1.5;
 		color          				:white;
-	}				
-	.datos a{				
+	}
+	.datos a{
 		margin-bottom  				:1% auto;
-		color          				:white;		
+		color          				:white;
 	}
 	.datos a:hover, .datos a:hover{
 		text-decoration				:none;
 		color          				:#F4DC75;
-	}	
+	}
 	.material-icons.md-18{
 		font-size:14px;
 	}
-	/* redes */				
-	.redes p{		
+	/* redes */
+	.redes p{
 		margin-top:5%;
 		text-align     				:center;
 		font-family    				:'Open Sans', sans-serif;
 		font-size      				:1.2em;
-		color          				:white;		
-	}				
+		color          				:white;
+	}
 	.youtube, .facebook{
 		display      			  	:inline;
 	}
-	
-	
